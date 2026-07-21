@@ -1,0 +1,7 @@
+போட் வெற்றிகரமாக இயக்கப்படுகிறது...
+2026-07-21 22:44:09,942 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8241522100:AAF2aTsyf20ToZisEKv5C38vShseItx3ICk/getMe "HTTP/1.1 200 OK"
+2026-07-21 22:44:10,141 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8241522100:AAF2aTsyf20ToZisEKv5C38vShseItx3ICk/deleteWebhook "HTTP/1.1 200 OK"
+2026-07-21 22:44:10,150 - telegram.ext.Application - INFO - Application started
+2026-07-21 22:44:20,774 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8241522100:AAF2aTsyf20ToZisEKv5C38vShseItx3ICk/getUpdates "HTTP/1.1 200 OK"
+2026-07-21 22:44:31,016 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8241522100:AAF2aTsyf20ToZisEKv5C38vShseItx3ICk/getUpdates "HTTP/1.1 200 OK"
+2026-07-21 22:44:41,207 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8241522100:AAF2aTsyf20ToZisEKv5C38vShseItx3ICk/getUpdates "HTTP/1.1 200 OK"
