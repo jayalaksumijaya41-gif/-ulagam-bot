@@ -1,1 +1,16 @@
-("Enter file contents here") 
+import os
+import telebot
+
+TOKEN = os.environ.get('BOT_TOKEN', 'YOUR_BOT_TOKEN_HERE')
+bot = telebot.TeleBot(TOKEN)
+
+@bot.message_handler(commands=['start', 'help'])
+def send_welcome(message):
+    bot.reply_to(message, "வணக்கம்! நான் உங்கள் டெலிகிராம் பாட். நான் இப்போது வெற்றிகரமாக இயங்குகிறேன்!")
+
+@bot.message_handler(func=lambda message: True)
+def echo_all(message):
+    bot.reply_to(message, message.text)
+
+bot.infinity_polling()
+
