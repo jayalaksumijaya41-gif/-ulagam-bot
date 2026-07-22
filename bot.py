@@ -1,3 +1,4 @@
+
 import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
@@ -26,7 +27,7 @@ def send_welcome(message):
         )
         return
 
-    bot.reply_to(message, "வணக்கம்! நான் உங்கள் டெலிகிராம் பாட். நான் இப்போது வெற்றிகரமாக இயங்குகிறேன்!")
+    bot.reply_to(message, "வணக்கம்! நீங்கள் சேனலில் இணைந்துவிட்டீர்கள். பாட் இப்போது தயாராக உள்ளது!")
 
 @bot.message_handler(func=lambda message: True)
 def echo_all(message):
